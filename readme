@@ -1,0 +1,13 @@
+
+1. #include : chỉ thị bao hàm tệp
+    * cách sử dụng:
+        - Thêm, tái sử dụng các nội dung các tệp và file mã nguồn mong muốn được sử dụng để đưa vào chương trình
+        - Phân chia các các tệp mã nguồn (code, thư viện) giúp việc quản lý hiệu quả hơn
+
+2. #define, #undef : chỉ thị định nghĩa, hàm, hằng số hoặc bất kỳ đoạn mã nào sẽ được thay thế trong quá trình tiền xử lý
+    * cách sử dụng:
+        - Dùng để thay thế chuỗi mã nguồn được định nghĩa trong quá trình tiền xử lý.
+
+3. #if, #elif, #else, #ifdef, #ifndef : dùng để kiểm tra điều kiện
+
+
