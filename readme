@@ -9,5 +9,18 @@
         - Dùng để thay thế chuỗi mã nguồn được định nghĩa trong quá trình tiền xử lý.
 
 3. #if, #elif, #else, #ifdef, #ifndef : dùng để kiểm tra điều kiện
+    #define
+        Dùng để thay thế một chuỗi mã nguồn bằng một chuỗi khác trước khi chương trình biên dịch.
+        Giúp giảm lặp lại mã, dễ bảo trì chương trình.
+    #undef
+        Dùng để hủy định nghĩa của một macro đã được định nghĩa trước đó bằng #define
+    #if, #elif, #else
+        Dùng để kiểm tra điều kiện
+    #ifdef, #ifndef
+        #ifdef dùng để kiểm tra một macro đã được định nghĩa hay chưa, nếu macro đã được định nghĩa thì mã nguồn sau #ifdef sẽ được biên dịch.
+        #ifndef dùng để kiểm tra một macro đã được định nghĩa hay chưa, nếu macro chưa được định nghĩa thì mã nguồn sau #ifndef sẽ được biên dịch
+
+    
+
 
 
